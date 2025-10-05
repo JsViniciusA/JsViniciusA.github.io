@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecionando...</title>
+    <script type="text/javascript">
+      // Salva a rota que o usuário tentou acessar
+      sessionStorage.setItem('redirect', window.location.pathname);
+
+      // Redireciona para a raiz do projeto. 
+      // O ponto (.) é importante para funcionar corretamente.
+      window.location.href = '.'; 
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
