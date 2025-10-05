@@ -1,19 +1,17 @@
 {
-  "name": "tenpest-aerodesign",
+  "name": "teste",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tenpest-aerodesign.github.io",
+  "homepage": "https://JsViniciusA.github.io",
   "scripts": {
     "dev": "vite",
-    "lint": "eslint .",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
